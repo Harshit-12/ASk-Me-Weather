@@ -1,0 +1,341 @@
+
+body{
+    background-image: url("images/cool-bg4.png");
+}
+
+.content{
+    background-image: url("images/cool-bg2.png");
+    text-align: center;
+    /* padding: 10%; */
+    width: 60%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.info{
+    background-image: url("images/cool-background.png");
+    padding: 5%;
+    border-bottom: 10px;
+
+}
+.search-bar{
+    border-radius: 20px;
+    border: solid 3px;
+    width: 30%;
+    padding: 5px 10px;
+}
+.srcbtn{
+    background-color:   #2ACA14;
+    border: none;
+    color: white;
+    padding: 10px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    width: 20%;
+    text-align: center;
+    margin: 20px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.srcbtn:hover{
+    background-color: #98E522;
+    
+}
+.city{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.temp{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+.tmp{
+    font-weight: bold;
+    font-size: 2rem;
+}
+#date{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.heading{
+    font-weight: bold;
+    font-size: 3.5rem;
+    font-family: 'Alfa Slab One', cursive;
+}
+.subhead{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Secular One', sans-serif;
+}
+#clock{
+    margin-left: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .search-bar{
+        border-radius: 20px;
+        border: solid 3px;
+        width: 80%;
+        padding: 5px 10px;
+    }
+    .srcbtn{
+        background-color:   #2ACA14;
+        border: none;
+        color: white;
+        padding: 10px 17px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        width: 50%;
+        text-align: center;
+        margin: 20px 12px;
+        border-radius: 20px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .content{
+        background-image: url("images/cool-bg2.png");
+        text-align: center;
+        /* padding: 10%; */
+        width: 90%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+        
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+body{
+    font-family: "Montserrat";
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: white;
+    font-size: 3.5rem;
+    font-stretch: expanded;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+}
+h2{
+    font-family:"Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+
+#title
+{
+    /* background-color: #ff4638; */
+    /* background-color: #7c5fe4;*/
+       background-color: #6495ED;
+    /* background-image: url("cool-bg2.png"); */
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 0;
+}
+.d-btn{
+    margin: 5% 3% 5% 0;
+}
+.t-img{
+    width: 60%;
+    position: absolute;
+    transform: rotate(25deg);
+    right: 30%;
+}
+
+/* Features Section  */
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.fb{
+    padding: 5%;
+    text-align: center;
+}
+.icon{
+    color: #6495ED;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testonomials */
+
+#testimonials{
+    
+    text-align: center;
+    background-color:#6495ED;
+    color: white;
+}
+.test-img{
+width: 10%;
+margin: 20px;
+border-radius: 100%;
+}
+#press{
+    background-color:#6495ED;;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Price Card */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.price-col{
+    padding: 3% 2%;
+}
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .t-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Call For Action */
+.cta-head{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#cta{
+    background-color:#6495ED;
+    color: white;
+    /* font-size: 5rem; */
+    text-align: center;
+    padding: 7% 15%;
+}
+
+/* Footer SEction */
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.soc-icon{
+    padding: 20px 10px;
+}
+.btn{
+    background-color: #32CD32;
+    color: white;
+}
+.link {
+    color: white;
+}
+.link:hover{
+    color: black;
+}
+
+.animated{
+    height: 25%;
+    width: 25%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.gif{
+    background-color: black;
+    
+     /* background-image: url("css/"); */
+    color: white;
+}
+.whead{
+    text-align: center;
+    font-size: 3rem;
+}
+/* .carousel-inner > .carousel-item {
+    /* position: relative; */
+    /* display: none;
+    -webkit-transition: 0.16 ease-in-out left;
+    -moz-transition: 0.16 ease-in-out left;
+    -o-transition: 0.16s ease-in-out left;
+    transition: 0.16s ease-in-out left; */
+} 
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 25px 20px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }

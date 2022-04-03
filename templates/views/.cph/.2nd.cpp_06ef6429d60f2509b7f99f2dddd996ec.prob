@@ -1,0 +1,1 @@
+{"name":"Local: 2nd","url":"d:\\Weather Express App\\templates\\views\\2nd.cpp","tests":[{"id":1648913841538,"input":"3\n127\n198\n519","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Weather Express App\\templates\\views\\2nd.cpp","group":"local","local":true}
